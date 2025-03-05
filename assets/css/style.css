@@ -144,6 +144,68 @@ header {
 }
 /* End Navbar */
 
+/* Feature */
+#features {
+	text-align: center;
+	color: #3d8d7a;
+	font-family: "Monserrat", "Montserrat-SemiBold", Arial, sans-serif;
+	font-weight: bold;
+  }
+  
+  h3.subTitleFeature {
+	font-family: "Monserrat", "Montserrat-SemiBold", Arial, sans-serif;
+	text-align: center;
+	color: #000;
+  }
+  
+  h5.featureUnggulan {
+	font-family: "Monserrat", "Montserrat-SemiBold", Arial, sans-serif;
+	text-align: center;
+	color: #000;
+  }
+  
+  .fitur1 {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+  .fiturDesc1 {
+	font-size: medium;
+	color: #000;
+	margin-top: 1rem;
+  }
+  
+  .fitur2 {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+  .fiturDesc2 {
+	font-size: medium;
+	color: #000;
+	padding: 1rem;
+  }
+  
+  .fitur3 {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+  .fiturDesc3 {
+	font-size: medium;
+	color: #000;
+	padding: 1rem;
+  }
+  
+  #buttonAction {
+	padding: 1rem;
+	background-color: white;
+  }
+/* End Feature */
+
 /* FAQ */
 #faq {
 	margin: 2rem 0;
