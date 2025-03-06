@@ -206,6 +206,75 @@ header {
   }
 /* End Feature */
 
+/* Testimoni */
+#testimoni{
+    background-color: var(--color-primary);
+	padding: 2rem 0;
+    margin: 2rem 0;
+}
+#testimoni .judul{
+    font-size: 2.5rem;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #F6F0F0;
+    text-align: center;
+}
+#testimoni .j1{
+    font-size: 1.2rem;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #F6F0F0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Card-Slide */
+.pesan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__testimoni {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container__testimoni .card-content{
+    display: flex;
+    padding: 5rem;
+    column-gap: 2rem;
+}
+.cards{
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    width: 50vh;
+    padding: 2rem;
+    background-color: var(--color-cream);
+}
+.cards .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.3rem;
+}
+.profile .name-testi{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.name-testi .name{
+    font-weight: 400;
+}
+.name-testi .testi{
+    font-weight: 300;
+}
+/* End Testimoni */
+
 /* FAQ */
 #faq {
 	margin: 2rem 0;
@@ -442,4 +511,67 @@ footer {
 	.container {
 		max-width: 1536px;
 	}
+}
+
+/* jumbotron */
+#jumbotron {
+    background: url("../images/coffee-logo.svg") no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.jumbotroncontent {
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.jumbotroncontent h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.jumbotroncontent p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.button__cta {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ff6600;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.button__cta:hover {
+    background: #e65c00;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    #jumbotron {
+        height: 60vh;
+    }
+
+    .jumbotroncontent h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotroncontent p {
+        font-size: 1rem;
+    }
+
+    .button__cta {
+        font-size: 0.9rem;
+    }
 }
