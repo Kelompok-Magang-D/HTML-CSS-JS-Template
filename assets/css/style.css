@@ -16,6 +16,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	width: auto;
 }
 
 body {
@@ -761,6 +762,8 @@ button {
 	position: relative;
 	margin: 0 auto;
 	border-radius: var(--radius);
+	justify-content: center;
+	display: flex;
 }
 
 .video-container img {
@@ -890,10 +893,12 @@ button {
 	/* Navbar becomes visible, hamburger menu hidden */
 	.navbar {
 		display: flex;
+		margin-left: 4rem;
 	}
 
 	.button__contact {
 		display: flex;
+		margin-bottom: 0.3rem;
 	}
 
 	.hamburger {
@@ -999,6 +1004,9 @@ button {
 	.stat-item h3 {
 		font-size: 4rem;
 	}
+	.video-container {
+		width: 100%;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -1011,4 +1019,10 @@ button {
 	.container {
 		max-width: 1536px;
 	}
+}
+
+.responsive {
+	width: 100%;
+	aspect-ratio: 16 / 9; /* Sesuaikan rasio aspek */
+	border: none;
 }
